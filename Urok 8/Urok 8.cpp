@@ -13,9 +13,9 @@ int main()
 	//cout << boolalpha;
 	if (a1 == 1)
 	{
-		cout << "Введите первое число " << endl;
+		cout << "Введите 1 число " << endl;
 		cin >> b1;
-		cout << "Введите второе число " << endl;
+		cout << "Введите 2 число " << endl;
 		cin >> c1;
 		s1 = b1 + c1;
 		cout << "Сумма двух чисел = " << s1 << endl;
@@ -38,7 +38,7 @@ int main()
 				cout << "Введите 2 число" << endl;
 				cin >> c1;
 				s1 = b1 * c1;
-				cout << "Произведение двух чисел  = " << s1 << endl;
+				cout << "Произведение 2х чисел  = " << s1 << endl;
 			}
 			else
 				if (a1 == 3)
@@ -54,7 +54,7 @@ int main()
 					else
 					{
 						s1 = b1 - c1;
-						cout << "Разность двух чисел  = " << s1 << endl;
+						cout << "Разность 2х чисел  = " << s1 << endl;
 					}
 
 				}
@@ -66,7 +66,7 @@ int main()
 						cout << "Введите 2 число" << endl;
 						cin >> c1;
 						s1 = b1 / c1;
-						cout << "Частное двух чисел  = " << s1 << endl;
+						cout << "Частное 2х чисел  = " << s1 << endl;
 					}
 					else
 						if (a1 == 5)
